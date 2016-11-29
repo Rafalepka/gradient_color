@@ -1,0 +1,76 @@
+/*gradient declaration on*/
+
+/*klasa glowna */
+.gradient_color_class {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+/*kolory do prawej */
+.gradient_color1 {
+    height: 30px;
+    background: linear-gradient(to right, red , yellow, green, blue, violet, pink);
+    margin-bottom: 20px;
+}
+/*kolory do lewej*/
+.gradient_color2 {
+    height: 30px;
+    background: linear-gradient(to left, red , yellow, green, blue, violet, pink);
+    margin-bottom: 20px;
+}
+
+/*liniowo przestawione o dana ilosc stopni*/
+.gradient_color3 {
+    height: 100px;
+    background: repeating-linear-gradient(180deg, red , yellow, green, blue, violet, pink);
+    margin-bottom: 20px;
+}
+
+/*kolowy od srodka*/
+.gradient_color4 {
+    height: 100px;
+    background: radial-gradient(circle, red , yellow, green);
+    margin-bottom: 20px;
+}
+
+/*gradient kolowy od srodka staly*/
+.gradient_color5 {
+    height: 100px;
+    background: radial-gradient(ellipse, red , yellow, green, blue, violet, pink);
+    margin-bottom: 20px;
+}
+
+/*powtarzajacy sie gradient kolowy rodzaj circle or ellipse*/
+.gradient_color6 {
+    height: 100px;
+    background: repeating-radial-gradient(circle, blue 10%, yellow 30%, green 50%);
+    margin-bottom: 20px;
+}
+
+/*gradient kolowy z wysrodkowaniem */
+.gradient_color7 {
+    height: 100px;
+    background: radial-gradient(closest-side at 50% 50%, blue 10%, yellow 30%, green 50%);
+    margin-bottom: 20px;
+}
+
+/*kolowy z ustaleniem stopnia zapełenia kolorów*/
+
+.gradient_color8 {
+    height: 100px;
+    background: radial-gradient(red 20% , yellow 15%, green, blue, violet, pink);
+    margin-bottom: 20px;
+}
+/*kwadrat z poswiata i gradientem*/
+.gradient_color9 {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to right, red , yellow, green);
+    box-shadow: 0 0 30px 20px rgba(20,24,240, 0.5);
+}
+
+/*gradient declaration stop*/

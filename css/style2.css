@@ -1,0 +1,23 @@
+.gradient_color_class {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.gradient_color1 {
+    height: 10px;
+    background: linear-gradient(to right, red , yellow, green, blue, violet, pink);
+    margin-bottom: 20px;
+}
+
+.gradient_color1 a {
+    text-decoration: none;
+    margin: 40px;
+}
+
+.gradient_color1 a:hover {
+    background: linear-gradient(to right, green, blue);
+    text-decoration: none;
+    height: 10px;
+}
+
